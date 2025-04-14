@@ -9,15 +9,8 @@ from PIL import Image
 from io import BytesIO
 
 # MongoDB connection setup
-
-# client = MongoClient("mongodb+srv://admin:admin123@cluster0.gl4ea.mongodb.net/?retryWrites=true&w=majority")
-# client = MongoClient("mongodb+srv://admin:admin123@cluster0.gl4ea.mongodb.net/?retryWrites=true&w=majority")
-# "mongodb+srv://admin:admin123@cluster0.tszjsu0.mongodb.net/?retryWrites=true&w=majority",
-# "mongodb+srv://admin:admin123@cluster0.ee7vq.mongodb.net/?retryWrites=true&w=majority",
-# mongodb+srv://admin:admin123@cluster0.tszjsu0.mongodb.net/
-
 client = MongoClient(
-    "mongodb+srv://admin:admin123@cluster0.tszjsu0.mongodb.net/?retryWrites=true&w=majority",
+    "",#Paste your connection link to MongoDB databse
     ssl=True,
     tlsAllowInvalidCertificates=True  # Use for testing only, as it disables SSL certificate verification
 )
