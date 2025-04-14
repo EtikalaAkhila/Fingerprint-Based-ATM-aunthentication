@@ -1,0 +1,19 @@
+```txt
+pymongo==4.6.1
+inputimeout==1.0.4
+```
+
+### Optional (if using fingerprint image processing):
+If your project includes any image processing (for example, reading fingerprint images), you may also want to add:
+
+```txt
+opencv-python==4.9.0.80
+numpy==1.26.4
+```
+
+### To generate or install:
+- To install dependencies from this file:
+
+```bash
+pip install -r requirements.txt
+```
