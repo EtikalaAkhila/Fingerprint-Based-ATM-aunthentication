@@ -96,9 +96,3 @@ Example MongoDB document structure:
 - Integrate real-time fingerprint scanning hardware.
 - Add facial recognition as a backup authentication method.
 - Encrypt sensitive data like PINs.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
